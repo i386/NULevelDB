@@ -7,6 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F01FC1E16A53A04005CE7A5 /* NSLDBIterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E82784813EAF85500C64821 /* NSLDBIterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F01FC1F16A53A04005CE7A5 /* NULDBCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E82784A13EAF85500C64821 /* NULDBCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F01FC2016A53A04005CE7A5 /* NULDBComparator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E82784C13EAF85500C64821 /* NULDBComparator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F01FC2116A53A04005CE7A5 /* NULDBDB+Testing.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E82784E13EAF85500C64821 /* NULDBDB+Testing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F01FC2216A53A04005CE7A5 /* NULDBDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E82785013EAF85500C64821 /* NULDBDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F01FC2316A53A04005CE7A5 /* NULDBSlice.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E82785213EAF85500C64821 /* NULDBSlice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F01FC2416A53A04005CE7A5 /* NULDBStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E82785413EAF85500C64821 /* NULDBStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F01FC2516A53A04005CE7A5 /* NULDBTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E82785613EAF85500C64821 /* NULDBTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F01FC2616A53A04005CE7A5 /* NULDBSerializable.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E221EDE13F2D07D00203E8D /* NULDBSerializable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F01FC2716A53A04005CE7A5 /* NULDBUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E221ED913F2C40900203E8D /* NULDBUtilities.h */; };
+		0F01FC2816A53A04005CE7A5 /* NULDBWriteBatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E34E6F814715FAB00945FDB /* NULDBWriteBatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F01FC2B16A53A04005CE7A5 /* NSLDBIterator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E82784913EAF85500C64821 /* NSLDBIterator.mm */; };
+		0F01FC2C16A53A04005CE7A5 /* NULDBCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E82784B13EAF85500C64821 /* NULDBCache.mm */; };
+		0F01FC2D16A53A04005CE7A5 /* NULDBComparator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E82784D13EAF85500C64821 /* NULDBComparator.mm */; };
+		0F01FC2E16A53A04005CE7A5 /* NULDBDB.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E82785113EAF85500C64821 /* NULDBDB.mm */; };
+		0F01FC2F16A53A04005CE7A5 /* NULDBSlice.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E82785313EAF85500C64821 /* NULDBSlice.mm */; };
+		0F01FC3016A53A04005CE7A5 /* NULDBStatus.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E82785513EAF85500C64821 /* NULDBStatus.mm */; };
+		0F01FC3116A53A04005CE7A5 /* NULDBTable.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E82785713EAF85500C64821 /* NULDBTable.mm */; };
+		0F01FC3216A53A04005CE7A5 /* NULDBUtilities.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E221EDA13F2C40A00203E8D /* NULDBUtilities.mm */; };
+		0F01FC3316A53A04005CE7A5 /* NULDBDB+Enumeration.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D08B61464625D001F4447 /* NULDBDB+Enumeration.mm */; };
+		0F01FC3416A53A04005CE7A5 /* NULDBDB+SizeEstimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D08BA1464644B001F4447 /* NULDBDB+SizeEstimation.mm */; };
+		0F01FC3516A53A04005CE7A5 /* NULDBDB+BulkAccess.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D08BE146465D8001F4447 /* NULDBDB+BulkAccess.mm */; };
+		0F01FC3616A53A04005CE7A5 /* NULDBDB+Serializing.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E7D08C2146466D6001F4447 /* NULDBDB+Serializing.mm */; };
+		0F01FC3716A53A04005CE7A5 /* NULDBWriteBatch.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4E34E6F914715FAB00945FDB /* NULDBWriteBatch.mm */; };
+		0F01FC3916A53A04005CE7A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E82772813EAF44500C64821 /* Foundation.framework */; };
+		0F01FC3C16A53A04005CE7A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E82772D13EAF44500C64821 /* InfoPlist.strings */; };
+		0F01FC4916A53A0E005CE7A5 /* NULDBDB+Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E82784F13EAF85500C64821 /* NULDBDB+Testing.m */; };
+		0F01FC4A16A53A0E005CE7A5 /* NULDBTestUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E82787C13EAFE1400C64821 /* NULDBTestUtilities.m */; };
+		0F01FC4B16A53A0E005CE7A5 /* NULevelDB_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E82787E13EAFE1400C64821 /* NULevelDB_Test.m */; };
+		0F01FC4C16A53A0E005CE7A5 /* NULDBTestAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6913EC8FBF00203E8D /* NULDBTestAddress.m */; };
+		0F01FC4D16A53A0E005CE7A5 /* NULDBTestCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6B13EC8FBF00203E8D /* NULDBTestCompany.m */; };
+		0F01FC4E16A53A0E005CE7A5 /* NULDBTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6D13EC8FBF00203E8D /* NULDBTestModel.m */; };
+		0F01FC4F16A53A0E005CE7A5 /* NULDBTestPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6F13EC8FBF00203E8D /* NULDBTestPerson.m */; };
+		0F01FC5016A53A0E005CE7A5 /* NULDBTestPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E7113EC8FBF00203E8D /* NULDBTestPhone.m */; };
+		0F01FC5116A53A0E005CE7A5 /* _NULDBTestAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E8B13EC907200203E8D /* _NULDBTestAddress.m */; };
+		0F01FC5216A53A0E005CE7A5 /* _NULDBTestCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E8D13EC907200203E8D /* _NULDBTestCompany.m */; };
+		0F01FC5316A53A0E005CE7A5 /* _NULDBTestPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E8F13EC907200203E8D /* _NULDBTestPerson.m */; };
+		0F01FC5416A53A0E005CE7A5 /* _NULDBTestPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E9113EC907200203E8D /* _NULDBTestPhone.m */; };
+		0F01FC5616A53A0E005CE7A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E82772813EAF44500C64821 /* Foundation.framework */; };
+		0F01FC5716A53A0E005CE7A5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E82773713EAF44500C64821 /* SenTestingKit.framework */; };
+		0F01FC5816A53A0E005CE7A5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E221EAE13EC94E100203E8D /* CoreData.framework */; };
+		0F01FC5916A53A0E005CE7A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E82773C13EAF44500C64821 /* CoreGraphics.framework */; };
+		0F01FC5A16A53A0E005CE7A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E82773913EAF44500C64821 /* UIKit.framework */; };
+		0F01FC5D16A53A0E005CE7A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E82774713EAF44500C64821 /* InfoPlist.strings */; };
+		0F01FC6616A53F26005CE7A5 /* arena.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277DF13EAF49500C64821 /* arena.cc */; };
+		0F01FC6716A53F26005CE7A5 /* cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277E213EAF49500C64821 /* cache.cc */; };
+		0F01FC6816A53F26005CE7A5 /* coding.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277E413EAF49500C64821 /* coding.cc */; };
+		0F01FC6916A53F26005CE7A5 /* comparator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277E713EAF49500C64821 /* comparator.cc */; };
+		0F01FC6A16A53F26005CE7A5 /* crc32c.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277E813EAF49500C64821 /* crc32c.cc */; };
+		0F01FC6B16A53F26005CE7A5 /* env.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277EB13EAF49500C64821 /* env.cc */; };
+		0F01FC6C16A53F26005CE7A5 /* env_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277EC13EAF49500C64821 /* env_posix.cc */; };
+		0F01FC6D16A53F26005CE7A5 /* hash.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277EE13EAF49500C64821 /* hash.cc */; };
+		0F01FC6E16A53F26005CE7A5 /* histogram.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277F013EAF49500C64821 /* histogram.cc */; };
+		0F01FC6F16A53F26005CE7A5 /* logging.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277F213EAF49500C64821 /* logging.cc */; };
+		0F01FC7016A53F26005CE7A5 /* options.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277F513EAF49500C64821 /* options.cc */; };
+		0F01FC7116A53F26005CE7A5 /* status.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277F813EAF49500C64821 /* status.cc */; };
+		0F01FC7216A53F26005CE7A5 /* port_posix.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277C413EAF49500C64821 /* port_posix.cc */; };
+		0F01FC7316A53F26005CE7A5 /* builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E82777E13EAF49500C64821 /* builder.cc */; };
+		0F01FC7416A53F26005CE7A5 /* db_iter.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E82778413EAF49500C64821 /* db_iter.cc */; };
+		0F01FC7516A53F26005CE7A5 /* db_impl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E82778213EAF49500C64821 /* db_impl.cc */; };
+		0F01FC7616A53F26005CE7A5 /* dbformat.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E82778713EAF49500C64821 /* dbformat.cc */; };
+		0F01FC7716A53F26005CE7A5 /* filename.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E82778A13EAF49500C64821 /* filename.cc */; };
+		0F01FC7816A53F26005CE7A5 /* log_reader.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E82778E13EAF49500C64821 /* log_reader.cc */; };
+		0F01FC7916A53F26005CE7A5 /* log_writer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E82779113EAF49500C64821 /* log_writer.cc */; };
+		0F01FC7A16A53F26005CE7A5 /* memtable.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E82779313EAF49500C64821 /* memtable.cc */; };
+		0F01FC7B16A53F26005CE7A5 /* repair.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E82779513EAF49500C64821 /* repair.cc */; };
+		0F01FC7C16A53F26005CE7A5 /* table_cache.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E82779913EAF49500C64821 /* table_cache.cc */; };
+		0F01FC7D16A53F26005CE7A5 /* version_edit.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E82779B13EAF49500C64821 /* version_edit.cc */; };
+		0F01FC7E16A53F26005CE7A5 /* version_set.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E82779E13EAF49500C64821 /* version_set.cc */; };
+		0F01FC7F16A53F26005CE7A5 /* write_batch.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277A113EAF49500C64821 /* write_batch.cc */; };
+		0F01FC8016A53F26005CE7A5 /* block.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277CE13EAF49500C64821 /* block.cc */; };
+		0F01FC8116A53F26005CE7A5 /* block_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277D013EAF49500C64821 /* block_builder.cc */; };
+		0F01FC8216A53F26005CE7A5 /* format.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277D213EAF49500C64821 /* format.cc */; };
+		0F01FC8316A53F26005CE7A5 /* iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277D413EAF49500C64821 /* iterator.cc */; };
+		0F01FC8416A53F26005CE7A5 /* merger.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277D613EAF49500C64821 /* merger.cc */; };
+		0F01FC8516A53F26005CE7A5 /* table.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277D813EAF49500C64821 /* table.cc */; };
+		0F01FC8616A53F26005CE7A5 /* table_builder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277D913EAF49500C64821 /* table_builder.cc */; };
+		0F01FC8716A53F26005CE7A5 /* two_level_iterator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4E8277DB13EAF49500C64821 /* two_level_iterator.cc */; };
+		0F01FC8E16A53FA5005CE7A5 /* libleveldb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F01FC8D16A53F26005CE7A5 /* libleveldb.a */; };
+		0F01FC9316A5432B005CE7A5 /* NULevelDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E82772513EAF44500C64821 /* NULevelDB.framework */; };
 		4E221E7213EC8FBF00203E8D /* NULDBTestAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6913EC8FBF00203E8D /* NULDBTestAddress.m */; };
 		4E221E7313EC8FBF00203E8D /* NULDBTestCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6B13EC8FBF00203E8D /* NULDBTestCompany.m */; };
 		4E221E7413EC8FBF00203E8D /* NULDBTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E221E6D13EC8FBF00203E8D /* NULDBTestModel.m */; };
@@ -90,6 +170,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0F01FC8F16A542E7005CE7A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E82771913EAF44500C64821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F01FC6416A53F26005CE7A5;
+			remoteInfo = "leveldb-mac";
+		};
+		0F01FC9116A54321005CE7A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E82771913EAF44500C64821 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F01FC1A16A53A04005CE7A5;
+			remoteInfo = "NULevelDB-mac";
+		};
 		4E82773E13EAF44500C64821 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4E82771913EAF44500C64821 /* Project object */;
@@ -114,6 +208,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F01FC6216A53A0E005CE7A5 /* NULevelDBTests copy.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NULevelDBTests copy.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F01FC8D16A53F26005CE7A5 /* libleveldb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libleveldb.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E221E6813EC8FBF00203E8D /* NULDBTestAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NULDBTestAddress.h; sourceTree = "<group>"; };
 		4E221E6913EC8FBF00203E8D /* NULDBTestAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NULDBTestAddress.m; sourceTree = "<group>"; };
 		4E221E6A13EC8FBF00203E8D /* NULDBTestCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NULDBTestCompany.h; sourceTree = "<group>"; };
@@ -289,6 +385,35 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0F01FC3816A53A04005CE7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F01FC8E16A53FA5005CE7A5 /* libleveldb.a in Frameworks */,
+				0F01FC3916A53A04005CE7A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F01FC5516A53A0E005CE7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F01FC9316A5432B005CE7A5 /* NULevelDB.framework in Frameworks */,
+				0F01FC5616A53A0E005CE7A5 /* Foundation.framework in Frameworks */,
+				0F01FC5716A53A0E005CE7A5 /* SenTestingKit.framework in Frameworks */,
+				0F01FC5816A53A0E005CE7A5 /* CoreData.framework in Frameworks */,
+				0F01FC5916A53A0E005CE7A5 /* CoreGraphics.framework in Frameworks */,
+				0F01FC5A16A53A0E005CE7A5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F01FC8816A53F26005CE7A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E82772013EAF44500C64821 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -364,6 +489,8 @@
 				4E82772513EAF44500C64821 /* NULevelDB.framework */,
 				4E82773613EAF44500C64821 /* NULevelDBTests.octest */,
 				4E82780113EAF4A600C64821 /* libleveldb.a */,
+				0F01FC6216A53A0E005CE7A5 /* NULevelDBTests copy.octest */,
+				0F01FC8D16A53F26005CE7A5 /* libleveldb.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -638,6 +765,31 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0F01FC1D16A53A04005CE7A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F01FC1E16A53A04005CE7A5 /* NSLDBIterator.h in Headers */,
+				0F01FC1F16A53A04005CE7A5 /* NULDBCache.h in Headers */,
+				0F01FC2016A53A04005CE7A5 /* NULDBComparator.h in Headers */,
+				0F01FC2116A53A04005CE7A5 /* NULDBDB+Testing.h in Headers */,
+				0F01FC2216A53A04005CE7A5 /* NULDBDB.h in Headers */,
+				0F01FC2316A53A04005CE7A5 /* NULDBSlice.h in Headers */,
+				0F01FC2416A53A04005CE7A5 /* NULDBStatus.h in Headers */,
+				0F01FC2516A53A04005CE7A5 /* NULDBTable.h in Headers */,
+				0F01FC2616A53A04005CE7A5 /* NULDBSerializable.h in Headers */,
+				0F01FC2716A53A04005CE7A5 /* NULDBUtilities.h in Headers */,
+				0F01FC2816A53A04005CE7A5 /* NULDBWriteBatch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F01FC8916A53F26005CE7A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E82772113EAF44500C64821 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -666,9 +818,63 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4E82772413EAF44500C64821 /* NULevelDB */ = {
+		0F01FC1A16A53A04005CE7A5 /* NULevelDB-mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E82774F13EAF44500C64821 /* Build configuration list for PBXNativeTarget "NULevelDB" */;
+			buildConfigurationList = 0F01FC3E16A53A04005CE7A5 /* Build configuration list for PBXNativeTarget "NULevelDB-mac" */;
+			buildPhases = (
+				0F01FC1D16A53A04005CE7A5 /* Headers */,
+				0F01FC2A16A53A04005CE7A5 /* Sources */,
+				0F01FC3816A53A04005CE7A5 /* Frameworks */,
+				0F01FC3B16A53A04005CE7A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F01FC9016A542E7005CE7A5 /* PBXTargetDependency */,
+			);
+			name = "NULevelDB-mac";
+			productName = NULevelDB;
+			productType = "com.apple.product-type.framework.static";
+		};
+		0F01FC4316A53A0E005CE7A5 /* NULevelDBTests-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F01FC5F16A53A0E005CE7A5 /* Build configuration list for PBXNativeTarget "NULevelDBTests-mac" */;
+			buildPhases = (
+				0F01FC4816A53A0E005CE7A5 /* Sources */,
+				0F01FC5516A53A0E005CE7A5 /* Frameworks */,
+				0F01FC5C16A53A0E005CE7A5 /* Resources */,
+				0F01FC5E16A53A0E005CE7A5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F01FC9216A54321005CE7A5 /* PBXTargetDependency */,
+			);
+			name = "NULevelDBTests-mac";
+			productName = NULevelDBTests;
+			productReference = 0F01FC6216A53A0E005CE7A5 /* NULevelDBTests copy.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		0F01FC6416A53F26005CE7A5 /* leveldb-mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F01FC8A16A53F26005CE7A5 /* Build configuration list for PBXNativeTarget "leveldb-mac" */;
+			buildPhases = (
+				0F01FC6516A53F26005CE7A5 /* Sources */,
+				0F01FC8816A53F26005CE7A5 /* Frameworks */,
+				0F01FC8916A53F26005CE7A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leveldb-mac";
+			productName = leveldb;
+			productReference = 0F01FC8D16A53F26005CE7A5 /* libleveldb.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4E82772413EAF44500C64821 /* NULevelDB-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E82774F13EAF44500C64821 /* Build configuration list for PBXNativeTarget "NULevelDB-ios" */;
 			buildPhases = (
 				4E82772113EAF44500C64821 /* Headers */,
 				4E82771E13EAF44500C64821 /* ShellScript */,
@@ -682,14 +888,14 @@
 			dependencies = (
 				4E82780D13EAF4B500C64821 /* PBXTargetDependency */,
 			);
-			name = NULevelDB;
+			name = "NULevelDB-ios";
 			productName = NULevelDB;
 			productReference = 4E82772513EAF44500C64821 /* NULevelDB.framework */;
 			productType = "com.apple.product-type.framework.static";
 		};
-		4E82773513EAF44500C64821 /* NULevelDBTests */ = {
+		4E82773513EAF44500C64821 /* NULevelDBTests-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E82775213EAF44500C64821 /* Build configuration list for PBXNativeTarget "NULevelDBTests" */;
+			buildConfigurationList = 4E82775213EAF44500C64821 /* Build configuration list for PBXNativeTarget "NULevelDBTests-ios" */;
 			buildPhases = (
 				4E82773113EAF44500C64821 /* Sources */,
 				4E82773213EAF44500C64821 /* Frameworks */,
@@ -702,14 +908,14 @@
 				4E82773F13EAF44500C64821 /* PBXTargetDependency */,
 				4E82774113EAF44500C64821 /* PBXTargetDependency */,
 			);
-			name = NULevelDBTests;
+			name = "NULevelDBTests-ios";
 			productName = NULevelDBTests;
 			productReference = 4E82773613EAF44500C64821 /* NULevelDBTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		4E82780013EAF4A600C64821 /* leveldb */ = {
+		4E82780013EAF4A600C64821 /* leveldb-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4E82780913EAF4A600C64821 /* Build configuration list for PBXNativeTarget "leveldb" */;
+			buildConfigurationList = 4E82780913EAF4A600C64821 /* Build configuration list for PBXNativeTarget "leveldb-ios" */;
 			buildPhases = (
 				4E8277FD13EAF4A600C64821 /* Sources */,
 				4E8277FE13EAF4A600C64821 /* Frameworks */,
@@ -719,7 +925,7 @@
 			);
 			dependencies = (
 			);
-			name = leveldb;
+			name = "leveldb-ios";
 			productName = leveldb;
 			productReference = 4E82780113EAF4A600C64821 /* libleveldb.a */;
 			productType = "com.apple.product-type.library.static";
@@ -745,14 +951,33 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4E82780013EAF4A600C64821 /* leveldb */,
-				4E82772413EAF44500C64821 /* NULevelDB */,
-				4E82773513EAF44500C64821 /* NULevelDBTests */,
+				4E82780013EAF4A600C64821 /* leveldb-ios */,
+				0F01FC6416A53F26005CE7A5 /* leveldb-mac */,
+				4E82772413EAF44500C64821 /* NULevelDB-ios */,
+				4E82773513EAF44500C64821 /* NULevelDBTests-ios */,
+				0F01FC1A16A53A04005CE7A5 /* NULevelDB-mac */,
+				0F01FC4316A53A0E005CE7A5 /* NULevelDBTests-mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0F01FC3B16A53A04005CE7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F01FC3C16A53A04005CE7A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F01FC5C16A53A0E005CE7A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F01FC5D16A53A0E005CE7A5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E82772213EAF44500C64821 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -772,6 +997,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0F01FC5E16A53A0E005CE7A5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
 		4E82771E13EAF44500C64821 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -814,6 +1052,86 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0F01FC2A16A53A04005CE7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F01FC2B16A53A04005CE7A5 /* NSLDBIterator.mm in Sources */,
+				0F01FC2C16A53A04005CE7A5 /* NULDBCache.mm in Sources */,
+				0F01FC2D16A53A04005CE7A5 /* NULDBComparator.mm in Sources */,
+				0F01FC2E16A53A04005CE7A5 /* NULDBDB.mm in Sources */,
+				0F01FC2F16A53A04005CE7A5 /* NULDBSlice.mm in Sources */,
+				0F01FC3016A53A04005CE7A5 /* NULDBStatus.mm in Sources */,
+				0F01FC3116A53A04005CE7A5 /* NULDBTable.mm in Sources */,
+				0F01FC3216A53A04005CE7A5 /* NULDBUtilities.mm in Sources */,
+				0F01FC3316A53A04005CE7A5 /* NULDBDB+Enumeration.mm in Sources */,
+				0F01FC3416A53A04005CE7A5 /* NULDBDB+SizeEstimation.mm in Sources */,
+				0F01FC3516A53A04005CE7A5 /* NULDBDB+BulkAccess.mm in Sources */,
+				0F01FC3616A53A04005CE7A5 /* NULDBDB+Serializing.mm in Sources */,
+				0F01FC3716A53A04005CE7A5 /* NULDBWriteBatch.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F01FC4816A53A0E005CE7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F01FC4916A53A0E005CE7A5 /* NULDBDB+Testing.m in Sources */,
+				0F01FC4A16A53A0E005CE7A5 /* NULDBTestUtilities.m in Sources */,
+				0F01FC4B16A53A0E005CE7A5 /* NULevelDB_Test.m in Sources */,
+				0F01FC4C16A53A0E005CE7A5 /* NULDBTestAddress.m in Sources */,
+				0F01FC4D16A53A0E005CE7A5 /* NULDBTestCompany.m in Sources */,
+				0F01FC4E16A53A0E005CE7A5 /* NULDBTestModel.m in Sources */,
+				0F01FC4F16A53A0E005CE7A5 /* NULDBTestPerson.m in Sources */,
+				0F01FC5016A53A0E005CE7A5 /* NULDBTestPhone.m in Sources */,
+				0F01FC5116A53A0E005CE7A5 /* _NULDBTestAddress.m in Sources */,
+				0F01FC5216A53A0E005CE7A5 /* _NULDBTestCompany.m in Sources */,
+				0F01FC5316A53A0E005CE7A5 /* _NULDBTestPerson.m in Sources */,
+				0F01FC5416A53A0E005CE7A5 /* _NULDBTestPhone.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F01FC6516A53F26005CE7A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F01FC6616A53F26005CE7A5 /* arena.cc in Sources */,
+				0F01FC6716A53F26005CE7A5 /* cache.cc in Sources */,
+				0F01FC6816A53F26005CE7A5 /* coding.cc in Sources */,
+				0F01FC6916A53F26005CE7A5 /* comparator.cc in Sources */,
+				0F01FC6A16A53F26005CE7A5 /* crc32c.cc in Sources */,
+				0F01FC6B16A53F26005CE7A5 /* env.cc in Sources */,
+				0F01FC6C16A53F26005CE7A5 /* env_posix.cc in Sources */,
+				0F01FC6D16A53F26005CE7A5 /* hash.cc in Sources */,
+				0F01FC6E16A53F26005CE7A5 /* histogram.cc in Sources */,
+				0F01FC6F16A53F26005CE7A5 /* logging.cc in Sources */,
+				0F01FC7016A53F26005CE7A5 /* options.cc in Sources */,
+				0F01FC7116A53F26005CE7A5 /* status.cc in Sources */,
+				0F01FC7216A53F26005CE7A5 /* port_posix.cc in Sources */,
+				0F01FC7316A53F26005CE7A5 /* builder.cc in Sources */,
+				0F01FC7416A53F26005CE7A5 /* db_iter.cc in Sources */,
+				0F01FC7516A53F26005CE7A5 /* db_impl.cc in Sources */,
+				0F01FC7616A53F26005CE7A5 /* dbformat.cc in Sources */,
+				0F01FC7716A53F26005CE7A5 /* filename.cc in Sources */,
+				0F01FC7816A53F26005CE7A5 /* log_reader.cc in Sources */,
+				0F01FC7916A53F26005CE7A5 /* log_writer.cc in Sources */,
+				0F01FC7A16A53F26005CE7A5 /* memtable.cc in Sources */,
+				0F01FC7B16A53F26005CE7A5 /* repair.cc in Sources */,
+				0F01FC7C16A53F26005CE7A5 /* table_cache.cc in Sources */,
+				0F01FC7D16A53F26005CE7A5 /* version_edit.cc in Sources */,
+				0F01FC7E16A53F26005CE7A5 /* version_set.cc in Sources */,
+				0F01FC7F16A53F26005CE7A5 /* write_batch.cc in Sources */,
+				0F01FC8016A53F26005CE7A5 /* block.cc in Sources */,
+				0F01FC8116A53F26005CE7A5 /* block_builder.cc in Sources */,
+				0F01FC8216A53F26005CE7A5 /* format.cc in Sources */,
+				0F01FC8316A53F26005CE7A5 /* iterator.cc in Sources */,
+				0F01FC8416A53F26005CE7A5 /* merger.cc in Sources */,
+				0F01FC8516A53F26005CE7A5 /* table.cc in Sources */,
+				0F01FC8616A53F26005CE7A5 /* table_builder.cc in Sources */,
+				0F01FC8716A53F26005CE7A5 /* two_level_iterator.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E82771F13EAF44500C64821 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -897,19 +1215,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		0F01FC9016A542E7005CE7A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F01FC6416A53F26005CE7A5 /* leveldb-mac */;
+			targetProxy = 0F01FC8F16A542E7005CE7A5 /* PBXContainerItemProxy */;
+		};
+		0F01FC9216A54321005CE7A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F01FC1A16A53A04005CE7A5 /* NULevelDB-mac */;
+			targetProxy = 0F01FC9116A54321005CE7A5 /* PBXContainerItemProxy */;
+		};
 		4E82773F13EAF44500C64821 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E82772413EAF44500C64821 /* NULevelDB */;
+			target = 4E82772413EAF44500C64821 /* NULevelDB-ios */;
 			targetProxy = 4E82773E13EAF44500C64821 /* PBXContainerItemProxy */;
 		};
 		4E82774113EAF44500C64821 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E82772413EAF44500C64821 /* NULevelDB */;
+			target = 4E82772413EAF44500C64821 /* NULevelDB-ios */;
 			targetProxy = 4E82774013EAF44500C64821 /* PBXContainerItemProxy */;
 		};
 		4E82780D13EAF4B500C64821 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 4E82780013EAF4A600C64821 /* leveldb */;
+			target = 4E82780013EAF4A600C64821 /* leveldb-ios */;
 			targetProxy = 4E82780C13EAF4B500C64821 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -934,6 +1262,154 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0F01FC3F16A53A04005CE7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NULevelDB/NULevelDB-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/leveldb/include/",
+					"$(PROJECT_DIR)/leveldb/",
+				);
+				INFOPLIST_FILE = "NULevelDB/NULevelDB-Info.plist";
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-DDEBUG";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = NULevelDB;
+				SDKROOT = macosx10.7;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		0F01FC4016A53A04005CE7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NULevelDB/NULevelDB-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/leveldb/include/",
+					"$(PROJECT_DIR)/leveldb/",
+				);
+				INFOPLIST_FILE = "NULevelDB/NULevelDB-Info.plist";
+				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-DDEBUG";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = NULevelDB;
+				SDKROOT = macosx10.7;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		0F01FC6016A53A0E005CE7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NULevelDB/NULevelDB-Prefix.pch";
+				INFOPLIST_FILE = "NULevelDBTests copy-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "NULevelDBTests copy";
+				SDKROOT = macosx10.7;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0F01FC6116A53A0E005CE7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NULevelDB/NULevelDB-Prefix.pch";
+				INFOPLIST_FILE = "NULevelDBTests copy-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lstdc++",
+				);
+				PRODUCT_NAME = "NULevelDBTests copy";
+				SDKROOT = macosx10.7;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		0F01FC8B16A53F26005CE7A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DSTROOT = /tmp/leveldb.dst;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DOS_MACOSX",
+					"-DLEVELDB_PLATFORM_POSIX",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = leveldb;
+				SDKROOT = macosx10.7;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/leveldb/include/ $(PROJECT_DIR)/leveldb/";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		0F01FC8C16A53F26005CE7A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				DSTROOT = /tmp/leveldb.dst;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_FAST_OBJC_DISPATCH = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DOS_MACOSX",
+					"-DLEVELDB_PLATFORM_POSIX",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = leveldb;
+				SDKROOT = macosx10.7;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/leveldb/include/ $(PROJECT_DIR)/leveldb/";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
 		4E82774D13EAF44500C64821 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -985,7 +1461,8 @@
 				INFOPLIST_FILE = "NULevelDB/NULevelDB-Info.plist";
 				OTHER_CFLAGS = "-DDEBUG";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NULevelDB;
+				SDKROOT = iphoneos6.0;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = framework;
@@ -1007,7 +1484,8 @@
 				INFOPLIST_FILE = "NULevelDB/NULevelDB-Info.plist";
 				OTHER_CFLAGS = "-DDEBUG";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NULevelDB;
+				SDKROOT = iphoneos6.0;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = framework;
@@ -1065,7 +1543,7 @@
 					"-DLEVELDB_PLATFORM_POSIX",
 				);
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = leveldb;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/leveldb/include/ $(PROJECT_DIR)/leveldb/";
 			};
@@ -1084,7 +1562,7 @@
 					"-DLEVELDB_PLATFORM_POSIX",
 				);
 				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = leveldb;
 				SKIP_INSTALL = YES;
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/leveldb/include/ $(PROJECT_DIR)/leveldb/";
 			};
@@ -1093,6 +1571,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0F01FC3E16A53A04005CE7A5 /* Build configuration list for PBXNativeTarget "NULevelDB-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F01FC3F16A53A04005CE7A5 /* Debug */,
+				0F01FC4016A53A04005CE7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F01FC5F16A53A0E005CE7A5 /* Build configuration list for PBXNativeTarget "NULevelDBTests-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F01FC6016A53A0E005CE7A5 /* Debug */,
+				0F01FC6116A53A0E005CE7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F01FC8A16A53F26005CE7A5 /* Build configuration list for PBXNativeTarget "leveldb-mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F01FC8B16A53F26005CE7A5 /* Debug */,
+				0F01FC8C16A53F26005CE7A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4E82771C13EAF44500C64821 /* Build configuration list for PBXProject "NULevelDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1102,7 +1607,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E82774F13EAF44500C64821 /* Build configuration list for PBXNativeTarget "NULevelDB" */ = {
+		4E82774F13EAF44500C64821 /* Build configuration list for PBXNativeTarget "NULevelDB-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E82775013EAF44500C64821 /* Debug */,
@@ -1111,7 +1616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E82775213EAF44500C64821 /* Build configuration list for PBXNativeTarget "NULevelDBTests" */ = {
+		4E82775213EAF44500C64821 /* Build configuration list for PBXNativeTarget "NULevelDBTests-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E82775313EAF44500C64821 /* Debug */,
@@ -1120,7 +1625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4E82780913EAF4A600C64821 /* Build configuration list for PBXNativeTarget "leveldb" */ = {
+		4E82780913EAF4A600C64821 /* Build configuration list for PBXNativeTarget "leveldb-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4E82780A13EAF4A600C64821 /* Debug */,
